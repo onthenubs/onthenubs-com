@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Piloto on On The Nubs</title>
+    <link>http://localhost:1313/etiquetas/piloto/</link>
+    <description>Recent content in Piloto on On The Nubs</description>
+    <generator>Hugo -- 0.134.2</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 11 Mar 2021 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/etiquetas/piloto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>☕️ #1 - OVH on fire! &#43; ko despliega pods &#43; hackers de sombrero blanco</title>
+      <link>http://localhost:1313/blog/01-piloto/</link>
+      <pubDate>Thu, 11 Mar 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/01-piloto/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/berCGwdzqkU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;hacker-mater&#34;&gt;Hacker Mater&lt;/h2&gt;
+&lt;p&gt;Hablamos de hackers de sombrero blanco y de sombrero negro.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iniseg.es/blog/ciberseguridad/tipologias-de-hacker-whitegrayblack-hat-hacker/&#34;&gt;Black hat vs white hat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0113243/&#34;&gt;Hackers (1995)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/Joybubbles&#34;&gt;Joybubbles&lt;/a&gt;: el hacker que podía poner las cabinas de teléfonos en modo centralita silbando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;oregon-web-services&#34;&gt;Oregon Web Services&lt;/h2&gt;
+&lt;p&gt;Aprendemos a hacer un alias para cambiar &lt;code&gt;kubectl&lt;/code&gt; por su equivalente oregones: &lt;code&gt;ko&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

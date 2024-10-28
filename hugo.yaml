@@ -1,0 +1,105 @@
+baseURL: 'https://onthenubs.com/'
+languageCode: 'es'
+title: 'On The Nubs'
+theme: ['PaperMod']
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: 'On The Nubs'
+  description: 'Enseñamos cosas de la nube y programación'
+  author: 'Equipo OnTheNubs'
+  authorFediverse: 'onthenubs@que.pasa.co'
+
+  label:
+    icon: 'images/OnTheNubs-Web.svg'
+
+  DateFormat: "2006-01-02"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    favicon: "/images/favicon.ico"
+    favicon16x16: "/images/favicon-16x16.png"
+    favicon32x32: "/images/favicon-32x32.png"
+    favicon128x128: "/images/favicon-128x128.png"
+    favicon180x180: "/images/favicon-180x180.png"
+    favicon192x192: "/images/favicon-192x192.png"
+    apple_touch_icon: "/images/apple-touch-icon.png"
+    disableHLJS: true
+
+  # home-info mode
+  homeInfoParams:
+    Title: "On The Nubs"
+    Content: "Enseñamos cosas de la nube y programación"
+
+  socialIcons:
+    - name: mastodon
+      url: "https://que.pasa.co/@onthenubs"
+    - name: instagram
+      url: "https://www.instagram.com/onthenubs/"
+    - name: twitch
+      url: "https://twitch.tv/onthenubs"
+    - name: youtube
+      url: "https://youtube.com/@onthenubs"
+    - name: github
+      url: "https://github.com/onthenubs/"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+taxonomies:
+  programa: programas
+  etiqueta: etiquetas
+
+
+menus:
+  main:
+    - identifier: cafe
+      name: ☕️ Café OnThenubs
+      url: programas/café-onthenubs/
+      weight: 1
+    - identifier: workshop
+      name: 🛠️ Workshop
+      url: programas/workshop/
+      weight: 2
+    - identifier: pirata
+      name: "🏴‍☠️ Emisión Pirata"
+      url: programas/emisión-pirata/
+      weight: 3
+    - identifier: etiquetas
+      name: 🏷️ Etiquetas
+      url: etiquetas/
+      weight: 4

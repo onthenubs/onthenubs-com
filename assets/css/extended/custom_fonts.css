@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Justus Pro';
+    src: url('/fonts/JustusProBold.TTF');
+}
+
+.logo, h1 {
+  font-family: "Justus Pro",system-ui,-apple-system,BlinkMacSystemFont,"segoe ui",Roboto,Oxygen,Ubuntu,Cantarell,"open sans","helvetica neue",sans-serif;
+}

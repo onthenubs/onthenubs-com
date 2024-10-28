@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>On The Nubs</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on On The Nubs</description>
+    <generator>Hugo -- 0.134.2</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 30 Sep 2021 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>☕️ #24 - ¿Qué pasaría si Matrix se ejecutara en Cloud?</title>
+      <link>http://localhost:1313/blog/24-matrix-en-cloud/</link>
+      <pubDate>Thu, 30 Sep 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/24-matrix-en-cloud/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/SKCV1lhVrus?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;como-escaparía-neo-si-matrix-fuera-un-servicio-en-la-nube&#34;&gt;Como escaparía Neo si Matrix fuera un servicio en la nube&lt;/h2&gt;
+&lt;p&gt;Hablamos de qué pasaría si en lugar de estar Matrix en un ordenador, estuviera virtualizado y con contenedores.&lt;/p&gt;
+&lt;p&gt;Agenda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://spaceappszgz.github.io/&#34;&gt;Space Apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/&#34;&gt;Kubecon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hacktoberfest.digitalocean.com/&#34;&gt;Hacktoberfest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Escapando de Matrix&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=jFlqVe11eeM&#34;&gt;BlackHat Scape Container&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_machine_escape&#34;&gt;Virtual Machine scape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #17 - Una vendetta entre hackers destruye miles de discos duros</title>
+      <link>http://localhost:1313/blog/17-vendetta-hackers-destruye-discos-duros/</link>
+      <pubDate>Thu, 01 Jul 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/17-vendetta-hackers-destruye-discos-duros/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Lov_25ojHpM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;vendetta-entre-hackers&#34;&gt;Vendetta entre hackers&lt;/h2&gt;
+&lt;p&gt;Hablamos del borrado masivo de discos los duros de Western Digital y sobre las teorías de cómo ha podido suceder y por qué.&lt;/p&gt;
+&lt;p&gt;Las vulnerabilidades:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2018-18472&#34;&gt;CVE-2018-18472&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2021-35941&#34;&gt;CVE-2021-35941&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.gizmodo.com/un-duelo-entre-dos-grupos-de-hackers-pudo-provocar-el-b-1847198963&#34;&gt;Noticia en español (Gizmodo)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.gizmodo.com/un-duelo-entre-dos-grupos-de-hackers-pudo-provocar-el-b-1847198963&#34;&gt;Tweet sobre la vendetta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arstechnica.com/gadgets/2021/06/hackers-exploited-0-day-not-2018-bug-to-mass-wipe-my-book-live-devices/&#34;&gt;Artículo completo de Ars Technica&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;la-sala-de-servidores-del-demonio&#34;&gt;La sala de servidores del demonio&lt;/h1&gt;
+&lt;p&gt;Analizamos todos los detalles el &lt;a href=&#34;https://twitter.com/Eugeni_CAT/status/1408754419777388548&#34;&gt;video de la sala de servidores del demonio&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #16 - Cómo hacer una pull request en un proyecto open source</title>
+      <link>http://localhost:1313/blog/16-pull-request-open-source/</link>
+      <pubDate>Thu, 24 Jun 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/16-pull-request-open-source/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/kVI3XL2jqXk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hablamos de hacer cosas de PRs y eso en GitHub.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #15 - ¿Qué es un CDN?</title>
+      <link>http://localhost:1313/blog/15-que-es-cdn/</link>
+      <pubDate>Thu, 17 Jun 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/15-que-es-cdn/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/j3a2r6PoWNc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hablamos de la caída de Fastly del 8 de Junio 2021 que afectó a medio internet.&lt;/p&gt;
+&lt;h2 id=&#34;la-caída-de-fastly&#34;&gt;La caída de Fastly&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://status.fastly.com/incidents/vpk0ssybt3bj&#34;&gt;Status de la incidencia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fastly.com/blog/summary-of-june-8-outage&#34;&gt;Postmortem de la incidencia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.gizmodo.com/asi-fue-como-un-unico-cliente-de-fastly-rompio-internet-1847063356&#34;&gt;Noticia en español (Gizmodo)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bbc.com/news/technology-57413224&#34;&gt;Noticia en la BBC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnet.com/news/fastly-outage-how-one-customer-broke-amazon-reddit-paypal-the-wider-internet/&#34;&gt;Noticia en CNET&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sobre-cdns&#34;&gt;Sobre CDNs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudflare.com/learning/cdn/what-is-a-cdn/&#34;&gt;¿Qué es un CDN?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/cloudfront/&#34;&gt;AWS Cloudfront&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;Cloudflare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;también-hablamos-de&#34;&gt;También hablamos de&amp;hellip;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/GossiTheDog/status/1403248014538555399&#34;&gt;Incidente de extinción en AWS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #14 - Kahoot! (¿Pokemon, Cloud, Lenguaje o Invent?)</title>
+      <link>http://localhost:1313/blog/14-kahoot-pokemon-cloud-lenguaje-invent/</link>
+      <pubDate>Thu, 10 Jun 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/14-kahoot-pokemon-cloud-lenguaje-invent/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/UOYajcvScGo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Nos hacen un Kahoot! ¿Cloud, lenguaje de programación, Pokemon o invent?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #13 - Rompiendo contenedores</title>
+      <link>http://localhost:1313/blog/13-rompiendo-contenedores/</link>
+      <pubDate>Thu, 03 Jun 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/13-rompiendo-contenedores/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/raukRcuDHTc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hoy rompemos contenedores.&lt;/p&gt;
+&lt;h2 id=&#34;rompemos-un-contenedor-con-una-bomba-logica&#34;&gt;Rompemos un contenedor con una bomba logica:&lt;/h2&gt;
+&lt;p&gt;Para reproducir la demo, ejecuta esto:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -d --rm -p 80:80 --memory=&amp;#34;200m&amp;#34; --cpus=&amp;#34;0.5&amp;#34; nginx
+docker container ls
+docker exec -it &amp;lt;NOMBRE-CONTENEDOR&amp;gt; /bin/bash
+
+# Dentro del contenedor:
+:(){ :|:&amp;amp; };:
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Más info:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://man7.org/linux/man-pages/man7/cgroups.7.html&#34;&gt;Cgroups en el kernel de linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.docker.com/config/containers/resource_constraints/&#34;&gt;Configurar los limites en contenedores docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oper.io/?p=understanding_the_bash_fork_bomb&#34;&gt;Entendiendo la bomba logica&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rompemos-un-contenedor-borrando-root&#34;&gt;Rompemos un contenedor borrando root&lt;/h2&gt;
+&lt;p&gt;Para reproducir la demo, ejecuta esto:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #12 - Introducción a Minikube &#43; Migrando tu primer contenedor Docker a Kubernetes</title>
+      <link>http://localhost:1313/blog/12-intro-minikube/</link>
+      <pubDate>Thu, 27 May 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/12-intro-minikube/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/noeYhRUXrgw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;2021-05-27---introducción-a-minikube&#34;&gt;2021-05-27 - Introducción a MiniKube&lt;/h2&gt;
+&lt;p&gt;En este episodio hemos hecho una introducción a MiniKube, una versión ligera de Kubernetes, ideal para aprender y hacer pruebas en local.&lt;/p&gt;
+&lt;p&gt;En concreto, hemos convertido una aplicación PHP en un contenedor, la hemos desplegado en Docker, y luego en MiniKube.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #11 - PromCon 2021 Crónica</title>
+      <link>http://localhost:1313/blog/11-promcon-2021/</link>
+      <pubDate>Thu, 20 May 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/11-promcon-2021/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/BJgF9ZLD0VM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hoy hablamos de la PromCon.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sysdig.com/blog/promcon-online-2021/&#34;&gt;Artículo de Sysdig&lt;/a&gt; con el resumen de las charlas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://promcon.io/&#34;&gt;Promcon 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Zocdw9Hs5t4&amp;amp;list=PLj6h78yzYM2PZb0QuIkm6ZY-xTuNA5zRO&#34;&gt;Lista de reproduccion con todas las charlas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #10 - Trivial de la nube</title>
+      <link>http://localhost:1313/blog/10-trivial-nube/</link>
+      <pubDate>Thu, 13 May 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/10-trivial-nube/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/iiRcXjxoNzM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hoy jugamos a trivial de acrónimos en la nube.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #9 - Cuando los servicios en la nube desaparecen</title>
+      <link>http://localhost:1313/blog/09-servicios-nube-desaparecen/</link>
+      <pubDate>Tue, 11 May 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/09-servicios-nube-desaparecen/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/cmgAXDYqjd4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hoy nos preguntamos qué ocurre cuando la nube se evapora porque una empresa desaparece.&lt;/p&gt;
+&lt;p&gt;Contamos la batallita de La Insula de Sancho:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://elpais.com/diario/2005/12/22/ciberpais/1135220544_850215.html&#34;&gt;Noticia en El Pais&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Lv3Yklu0bHY&#34;&gt;Trailer del juego&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #8 - Lío de licencias - ElasticSearch vs Amazon</title>
+      <link>http://localhost:1313/blog/08-licencias-elasticsearch-amazon/</link>
+      <pubDate>Thu, 06 May 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/08-licencias-elasticsearch-amazon/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/o7k8ABiLH7A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hoy hablamos de las licencias SSPL y el lío de MongoDB, ELasticSearch y Grafana con AWS.&lt;/p&gt;
+&lt;h2 id=&#34;noticias-de-la-nube&#34;&gt;Noticias de la Nube&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Primero &lt;a href=&#34;https://techcrunch.com/2018/10/16/mongodb-switches-up-its-open-source-license/&#34;&gt;cambio mongoDB&lt;/a&gt; (2018) AGPLv3 &amp;gt; &lt;a href=&#34;https://www.mongodb.com/licensing/server-side-public-license&#34;&gt;SSPL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Elastic (2021) &lt;a href=&#34;https://www.elastic.co/blog/licensing-change&#34;&gt;Cambia de Apache a SSPL&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/blog/why-license-change-AWS&#34;&gt;Amazon: NOT OK - why we had to change Elastic licensing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AWS Contraataca: &lt;a href=&#34;https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/&#34;&gt;Stepping up for a truly open source Elasticsearch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Open Source Initiative: &lt;a href=&#34;https://opensource.org/node/1099&#34;&gt;The SSPL is Not an Open Source License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Grafana &lt;a href=&#34;https://grafana.com/blog/2021/04/20/qa-with-our-ceo-on-relicensing/&#34;&gt;cambia de Apache a AGPL&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.infoq.com/news/2021/04/grafana-licence-agpl/#:~:text=Grafana%20Labs%20has%20recently%20announced,libraries%20will%20remain%20Apache%2Dlicensed&#34;&gt;Más info sobre el cambio de Grafana&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #7 - CVE-2021-25735 &#43; Admission Controllers &#43; Preparados para la KubeCon y PromCon 2021</title>
+      <link>http://localhost:1313/blog/07-cve-2021-25735/</link>
+      <pubDate>Thu, 29 Apr 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/07-cve-2021-25735/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-SutryrFHlk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;noticias-de-la-nube&#34;&gt;Noticias de la Nube&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;La semana que viene son la &lt;a href=&#34;https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/&#34;&gt;KubeCon&lt;/a&gt; y la &lt;a href=&#34;https://promcon.io/2021-online/&#34;&gt;PromCon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kubernetes es un &lt;a href=&#34;https://en.wiktionary.org/wiki/%CE%BA%CF%85%CE%B2%CE%B5%CF%81%CE%BD%CE%AE%CF%84%CE%B7%CF%82&#34;&gt;palabro griego&lt;/a&gt;, y se pronuncia KU-BER-NE-TES&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mr-robot-dancing-dajay&#34;&gt;Mr Robot Dancing da&amp;rsquo;Jay&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Repasamos la &lt;a href=&#34;https://sysdig.com/blog/cve-2021-25735-kubernetes-admission-bypass/&#34;&gt;vulnerabilidad del admission controller de Kubernetes CVE-2021-25735&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sysdig.com/blog/kubernetes-admission-controllers/&#34;&gt;¿Qué es el admission controller?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/concepts/security/controlling-access/&#34;&gt;Diferencias entre autenticación, autorización y admisión en Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #6 - Kubernetes 1.21 ¿Qué trae nuevo?</title>
+      <link>http://localhost:1313/blog/06-kubernetes-1-21/</link>
+      <pubDate>Thu, 22 Apr 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/06-kubernetes-1-21/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/paANWp6weKs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;noticias-de-la-nube&#34;&gt;Noticias de la Nube&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/sig-release/blob/master/releases/release-1.21/README.md&#34;&gt;Kubernetes saca la versión 1.21&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Obsoleta los &lt;a href=&#34;https://kubernetes.io/docs/concepts/policy/pod-security-policy/&#34;&gt;PodSecurityPolicies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;el-tozolón-de-la-semana&#34;&gt;El tozolón de la semana&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=26880147&#34;&gt;Auth0 ha estado caído por casi 4 horas&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La causa parece ser unas consultas en la base de datos que provocaron un problema de &amp;ldquo;resource contention&amp;rdquo; y afectó a los tiempo de respuesta de la base de datos provocando timeouts.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sysdig.com/blog/kubernetes-1-21-whats-new/&#34;&gt;Artículo con los detalles de la nueva version 1.21&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #5 - Hackeando la nube</title>
+      <link>http://localhost:1313/blog/05-hackeando-la-nube/</link>
+      <pubDate>Thu, 15 Apr 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/05-hackeando-la-nube/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/uG2xQ59qa4M?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Invitado especial: &lt;a href=&#34;https://twitter.com/Vicen_Herrera&#34;&gt;@Vicen_Herrera&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hacker-mater&#34;&gt;Hacker Mater&lt;/h2&gt;
+&lt;p&gt;Hablamos de lugares underground, los sótanos más technopunk donde se reunían los hackers en los  90.&lt;/p&gt;
+&lt;p&gt;También hemos nombrado:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://logbuch.c-base.org/c-booc&#34;&gt;C-Based&lt;/a&gt;: el garito más technopunk en Berlín.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mr-robot-dancing-dajay&#34;&gt;Mr Robot Dancing da&amp;rsquo;Jay&lt;/h2&gt;
+&lt;p&gt;Intentamos montar un Falco para detectar un &lt;a href=&#34;https://ironhackers.es/herramientas/reverse-shell-cheat-sheet/&#34;&gt;reverse shell&lt;/a&gt; como en el episodio 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #4 - Vim vs. Nano &#43; Ranking de tozolones &#43; Reverse Shell en directo</title>
+      <link>http://localhost:1313/blog/04-vim-vs-nano/</link>
+      <pubDate>Fri, 09 Apr 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/04-vim-vs-nano/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/wDMN6fBF3dk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;hacker-mater&#34;&gt;Hacker Mater&lt;/h2&gt;
+&lt;p&gt;Hablamos de &lt;a href=&#34;https://www.vim.org/&#34;&gt;vim&lt;/a&gt; y &lt;a href=&#34;https://www.nano-editor.org/&#34;&gt;nano&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;También hemos nombrado:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;emacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://notepad-plus-plus.org/&#34;&gt;Notepad++&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;VSCode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Ghost in th Shell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vim/vim/blob/master/runtime/tutor/tutor.es&#34;&gt;vimtutor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;el-tozolón-de-la-semana&#34;&gt;El tozolón de la semana&lt;/h2&gt;
+&lt;h3 id=&#34;seguimineto-de-ovh-y-sepe&#34;&gt;Seguimineto de OVH y SEPE&lt;/h3&gt;
+&lt;p&gt;Repasamos el estado del incencio de OVH, el secuestro del SEPE:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacenterdynamics.com/en/news/ovh-fire-restart-continues-ovhcloud-has-no-lift-sbg3/&#34;&gt;En OVH están subiendo los racks sin ascensores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/kike_DNOiSE/status/1379729693952380929?s=19&#34;&gt;OHV y las copias de seguridad en diferentes &amp;ldquo;localizaciones&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacenterdynamics.com/en/news/ovh-fire-restart-continues-ovhcloud-has-no-lift-sbg3/&#34;&gt;El SEPE puede tener problemas para pagar a la gente&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=3BRwunhJ7IU&#34;&gt;Video del Congreso HackRon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;el-ranking-de-tozolones&#34;&gt;El ranking de tozolones&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://krebsonsecurity.com/2021/03/whistleblower-ubiquiti-breach-catastrophic/&#34;&gt;Ubiquiti&lt;/a&gt;: cuenta de Lastpass de empleado compromete toda la infra de AWS. Se cree que los intrusos tienen credenciales de acceso remoto a equipos IoT de clientes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.businessinsider.com/stolen-data-of-533-million-facebook-users-leaked-online-2021-4?amp=&amp;amp;__twitter_impression=true&amp;amp;s=09&#34;&gt;533 millones de cuentas robadas a Facebook&lt;/a&gt;. Puedes comprobar si han filtrados tus datos &lt;a href=&#34;https://haveibeenzucked.com/&#34;&gt;aqui&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Filtran datos de &lt;a href=&#34;https://www.adslzone.net/noticias/seguridad/500-millones-cuentas-linkedin-filtracion-2021/&#34;&gt;500 millones de usuarios de LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sick.codes/universal-netmask-npm-package-used-by-270000-projects-vulnerable-to-octal-input-data-server-side-request-forgery-remote-file-inclusion-local-file-inclusion-and-more-cve-2021-28918/&#34;&gt;Paquete “netmask” de npm&lt;/a&gt;, usado por 270,000+ proyectos, vulnerable a input octal (&lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28918&#34;&gt;CVE-2021-28918&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bleepingcomputer.com/news/security/phps-git-server-hacked-to-add-backdoors-to-php-source-code/amp/?__twitter_impression=true&amp;amp;s=09&#34;&gt;Impersonaron a un mantenedor del repositorio oficial de PHP&lt;/a&gt; para insertar una puerta trasera para la ejecución de código remoto.&lt;/li&gt;
+&lt;li&gt;Caída de Azure por DNS 1 Abril (Azure, XBox afectado)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;También hemos hablado de:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #3 - Hackers con capucha</title>
+      <link>http://localhost:1313/blog/03-hackers-con-capucha/</link>
+      <pubDate>Thu, 25 Mar 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/03-hackers-con-capucha/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/A_wug3J_Ppc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;hacker-mater&#34;&gt;Hacker Mater&lt;/h2&gt;
+&lt;p&gt;Hablamos de por qué los hackers van siempre en las pelis con gorra o capucha.&lt;/p&gt;
+&lt;h2 id=&#34;oregon-web-services&#34;&gt;Oregon Web Services&lt;/h2&gt;
+&lt;p&gt;¿Qué son los &lt;code&gt;cacharros&lt;/code&gt; de AWS?:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/es/ec2&#34;&gt;AWS EC2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;el-tozolón-de-la-semana&#34;&gt;El tozolón de la semana&lt;/h2&gt;
+&lt;p&gt;Repasamos el estado del incencio de OVH, el secuestro del SEPE y comentamos las caídas de Facebook, Instagram, Whatsapp y Google.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #2 - La caída del SEPE &#43; Pozales en la nube</title>
+      <link>http://localhost:1313/blog/02-caida-sepe-pozales/</link>
+      <pubDate>Thu, 18 Mar 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/02-caida-sepe-pozales/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/sGVhw8HKuRk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;hacker-mater&#34;&gt;Hacker Mater&lt;/h2&gt;
+&lt;p&gt;Hablamos de vulnerabilidades, exploits y zero-days.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cve.mitre.org/&#34;&gt;Base de datso de vulnerabilidades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/Ataque_de_d%C3%ADa_cero&#34;&gt;¿Qué es un zero-day?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xkcd.com/327/&#34;&gt;La famosa tira de Bobby Tables en xkcd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;oregon-web-services&#34;&gt;Oregon Web Services&lt;/h2&gt;
+&lt;p&gt;¿Qué son los &lt;code&gt;pozales&lt;/code&gt; de AWS?:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El &lt;a href=&#34;https://twitter.com/yayaqueprograma/status/1366711031058337795&#34;&gt;tweet original de @yayaqueprograma&lt;/a&gt; sobre los &lt;code&gt;pozales&lt;/code&gt; de AWS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/es/s3/&#34;&gt;AWS S3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;el-tozolón-de-la-semana&#34;&gt;El tozolón de la semana&lt;/h2&gt;
+&lt;p&gt;Hablamos de Riuk, el ransomware que ha dejado al SEPE paralizado.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>☕️ #1 - OVH on fire! &#43; ko despliega pods &#43; hackers de sombrero blanco</title>
+      <link>http://localhost:1313/blog/01-piloto/</link>
+      <pubDate>Thu, 11 Mar 2021 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/01-piloto/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/berCGwdzqkU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;hacker-mater&#34;&gt;Hacker Mater&lt;/h2&gt;
+&lt;p&gt;Hablamos de hackers de sombrero blanco y de sombrero negro.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iniseg.es/blog/ciberseguridad/tipologias-de-hacker-whitegrayblack-hat-hacker/&#34;&gt;Black hat vs white hat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imdb.com/title/tt0113243/&#34;&gt;Hackers (1995)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/Joybubbles&#34;&gt;Joybubbles&lt;/a&gt;: el hacker que podía poner las cabinas de teléfonos en modo centralita silbando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;oregon-web-services&#34;&gt;Oregon Web Services&lt;/h2&gt;
+&lt;p&gt;Aprendemos a hacer un alias para cambiar &lt;code&gt;kubectl&lt;/code&gt; por su equivalente oregones: &lt;code&gt;ko&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
