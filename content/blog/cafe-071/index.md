@@ -1,5 +1,5 @@
 ---
-title: "☕️ #71 - wLsviy41nQs"
+title: "☕️ #71 - Rompiendo RSA con ordenadores cuánticos"
 slug: cafe-
 date: "2023-01-18T08:00:00+00:00"
 
