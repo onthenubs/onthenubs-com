@@ -1,6 +1,6 @@
 ---
 title: "☕️ #72 - Noticias de la semana"
-slug: cafe-
+slug: cafe-72-noticias-semana
 date: "2023-01-25T08:00:00+00:00"
 
 programas: "Café OnTheNubs"

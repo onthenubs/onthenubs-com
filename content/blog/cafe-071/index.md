@@ -1,6 +1,6 @@
 ---
 title: "☕️ #71 - Rompiendo RSA con ordenadores cuánticos"
-slug: cafe-
+slug: cafe-71-rompiendo-rsa-ordenadores-cuanticos
 date: "2023-01-18T08:00:00+00:00"
 
 programas: "Café OnTheNubs"
