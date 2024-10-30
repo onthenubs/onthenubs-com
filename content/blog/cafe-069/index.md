@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+  
+youtube: FLnYas1KWFU
 ---
-
-{{< youtube FLnYas1KWFU >}}
 
 * [Tumblr down](https://www.businessinsider.com/tumblr-porn-ban-nsfw-flagged-reactions-fandom-art-erotica-communities-2019-8)
 

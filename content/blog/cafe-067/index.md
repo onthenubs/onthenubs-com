@@ -9,8 +9,6 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: sjvbjJ8jGdE
 ---
-
-{{< youtube sjvbjJ8jGdE >}}
-
-

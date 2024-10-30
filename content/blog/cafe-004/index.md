@@ -9,10 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: wDMN6fBF3dk
 ---
-
-{{< youtube wDMN6fBF3dk >}}
-
 
 ## Hacker Mater
 Hablamos de [vim](https://www.vim.org/) y [nano](https://www.nano-editor.org/).

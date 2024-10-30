@@ -9,8 +9,8 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube kVI3XL2jqXk >}}
+youtube: kVI3XL2jqXk
+---
 
 Hablamos de hacer cosas de PRs y eso en GitHub.

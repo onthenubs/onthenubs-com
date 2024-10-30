@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube noeYhRUXrgw >}}
+youtube: noeYhRUXrgw
+---
 
 ## 2021-05-27 - Introducción a MiniKube
 

@@ -9,10 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: uG2xQ59qa4M
 ---
-
-{{< youtube uG2xQ59qa4M >}}
-
 
 Invitado especial: [@Vicen_Herrera](https://twitter.com/Vicen_Herrera)
 

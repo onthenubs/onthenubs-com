@@ -1,3 +1,15 @@
+<!-- Mastodon byline -->
+{{- if or .Params.authorFediverse site.Params.authorFediverse }}
+{{- $author := (.Params.authorFediverse | default site.Params.authorFediverse) }}
+{{- $author_type := (printf "%T" $author) }}
+{{- if (or (eq $author_type "[]string") (eq $author_type "[]interface {}")) }}
+{{- range $author }}
+<meta name="fediverse:creator" content="{{ . }}" />
+{{- end }}
+{{- else }}
+<meta name="fediverse:creator" content="{{ $author }}" />
+{{- end }}
+{{- end -}}
 <!-- Plausible Analytics -->
 {{- if (eq hugo.Environment "production") }}
 <script defer data-domain="onthenubs.com" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.js"></script>

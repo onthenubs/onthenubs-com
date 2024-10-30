@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube wLsviy41nQs >}}
+youtube: wLsviy41nQs
+---
 
 Breaking RSA With a Quantum Computer:
 

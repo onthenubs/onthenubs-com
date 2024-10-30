@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube SKCV1lhVrus >}}
+youtube: SKCV1lhVrus
+---
 
 ## Como escaparía Neo si Matrix fuera un servicio en la nube
 Hablamos de qué pasaría si en lugar de estar Matrix en un ordenador, estuviera virtualizado y con contenedores.

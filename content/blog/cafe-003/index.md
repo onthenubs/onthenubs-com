@@ -9,10 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: A_wug3J_Ppc
 ---
-
-{{< youtube A_wug3J_Ppc >}}
-
 
 ## Hacker Mater
 Hablamos de por qué los hackers van siempre en las pelis con gorra o capucha.

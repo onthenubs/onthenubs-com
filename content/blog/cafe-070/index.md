@@ -9,8 +9,8 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+  
+youtube: Z_cjR0R14_c
 ---
-
-{{< youtube Z_cjR0R14_c >}}
 
 

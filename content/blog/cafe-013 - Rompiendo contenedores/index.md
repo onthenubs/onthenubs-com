@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube raukRcuDHTc >}}
+youtube: raukRcuDHTc
+---
 
 Hoy rompemos contenedores.
 

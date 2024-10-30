@@ -9,10 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: sGVhw8HKuRk
 ---
-
-{{< youtube sGVhw8HKuRk >}}
-
 
 ## Hacker Mater
 Hablamos de vulnerabilidades, exploits y zero-days.

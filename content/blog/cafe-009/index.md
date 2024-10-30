@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube cmgAXDYqjd4 >}}
+youtube: cmgAXDYqjd4
+---
 
 Hoy nos preguntamos qué ocurre cuando la nube se evapora porque una empresa desaparece.
 

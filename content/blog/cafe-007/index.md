@@ -9,10 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: -SutryrFHlk
 ---
-
-{{< youtube -SutryrFHlk >}}
-
 
 ## Noticias de la Nube
 * La semana que viene son la [KubeCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/) y la [PromCon](https://promcon.io/2021-online/)

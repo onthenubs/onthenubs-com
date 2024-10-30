@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube j3a2r6PoWNc >}}
+youtube: j3a2r6PoWNc
+---
 
 Hablamos de la caída de Fastly del 8 de Junio 2021 que afectó a medio internet.
 

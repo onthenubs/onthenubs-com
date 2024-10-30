@@ -9,8 +9,8 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube iiRcXjxoNzM >}}
+youtube: iiRcXjxoNzM
+---
 
 Hoy jugamos a trivial de acrónimos en la nube.

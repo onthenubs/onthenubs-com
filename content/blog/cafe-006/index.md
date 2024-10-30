@@ -9,10 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: paANWp6weKs
 ---
-
-{{< youtube paANWp6weKs >}}
-
 
 ## Noticias de la Nube
 [Kubernetes saca la versión 1.21](https://github.com/kubernetes/sig-release/blob/master/releases/release-1.21/README.md)

@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube o7k8ABiLH7A >}}
+youtube: o7k8ABiLH7A
+---
 
 Hoy hablamos de las licencias SSPL y el lío de MongoDB, ELasticSearch y Grafana con AWS.
 

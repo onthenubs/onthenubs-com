@@ -10,10 +10,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
+
+youtube: berCGwdzqkU
 ---
-
-{{< youtube berCGwdzqkU >}}
-
 
 ## Hacker Mater
 Hablamos de hackers de sombrero blanco y de sombrero negro.

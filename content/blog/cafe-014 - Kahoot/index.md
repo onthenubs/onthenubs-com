@@ -9,8 +9,8 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube UOYajcvScGo >}}
+youtube: UOYajcvScGo
+---
 
 Nos hacen un Kahoot! ¿Cloud, lenguaje de programación, Pokemon o invent?

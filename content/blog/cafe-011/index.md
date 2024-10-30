@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube BJgF9ZLD0VM >}}
+youtube: BJgF9ZLD0VM
+---
 
 Hoy hablamos de la PromCon.
 

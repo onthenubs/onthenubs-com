@@ -9,9 +9,9 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
----
 
-{{< youtube Lov_25ojHpM >}}
+youtube: Lov_25ojHpM
+---
 
 ## Vendetta entre hackers
 Hablamos del borrado masivo de discos los duros de Western Digital y sobre las teorías de cómo ha podido suceder y por qué.
