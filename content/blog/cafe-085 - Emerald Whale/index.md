@@ -15,7 +15,11 @@ cover:
 
 ## DevOps Barcelona 2024
 
-- [Web del evento](https://devops.barcelona/)
+Miguel habla en el evento. Charla: **“Fortifying DevOps: Understanding and Fighting Botnet Threats”** by Miguel Hernández and Alessandra Rizzo.
+
+- [Web de DevOps Barcelona 2024](https://devops.barcelona/)
+- [Índice de Charlas](https://devops.barcelona/talks)
+
 
 ## Emerald Whale
 
@@ -29,8 +33,10 @@ Vídeo de YouTube que lo explica:
 
 [Exposed Git Config Files Leak Thousands of Cloud Credentials](https://www.youtube.com/watch?v=xzdoo5M0KZ0)
 
+
 ## Noticias
 
 - [China trolea a Melon Usk - USando Starlink para detectar drones espía de EE.UU.](https://www.20minutos.es/tecnologia/actualidad/china-trolea-elon-musk-starlink-drones-detectar-espia-eeuu-5650539/)
+- [The guardian abandona Twitter](https://www.theguardian.com/media/2024/nov/13/why-the-guardian-is-no-longer-posting-on-x).
 - [Minecraft OpenAI Video](https://oasis.decart.ai/welcome).
 - [Los algoritmos de Facebook trolean a una pequeña comunidad inglesa](https://gizmodo.com/facebooks-algorithms-think-a-small-english-community-is-up-to-no-good-2000522238).
