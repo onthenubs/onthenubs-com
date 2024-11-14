@@ -1,6 +1,6 @@
 ---
-title: "☕️ #83 - ¿Qué es una vulnerabilidad?"
-slug: cafe-83-vulnerabilidades
+title: "☕️ #83.1 - El tozolón de Disney"
+slug: cafe-83-1-tozolon-disney
 date: "2024-10-31T08:00:00+00:00"
 
 programas: "Café OnTheNubs"
@@ -10,7 +10,7 @@ cover:
   image: 'images/featured.webp'
   relative: true
 
-# youtube: LZQYPFhsG-8
+youtube: JkyNcgqaCRc
 ---
 
 ## Tozolón de la semana
@@ -42,7 +42,3 @@ cover:
 [Apple Dares Anyone to Find a Problem With Its Darling AI, Offers $1 Million Bounty](https://gizmodo.com/apple-dares-anyone-to-find-a-problem-with-its-darling-ai-offers-1-million-bounty-2000516513)
 
 [Stop Scanning Me](https://stopscanningme.eu/es/)
-
-## ¿Qué es una vulnerabilidad?
-
-[Automatizando la Detección de Vulnerabilidades en tus Recursos](https://safetybits.io/es/blog/automatizacion-deteccion-vulnerabilidades/)
