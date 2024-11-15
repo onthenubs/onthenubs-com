@@ -55,6 +55,8 @@ params:
   socialIcons:
     - name: mastodon
       url: "https://que.pasa.co/@onthenubs"
+    - name: bluesky
+      url: "https://bsky.app/profile/onthenubs.com"
     - name: instagram
       url: "https://www.instagram.com/onthenubs/"
     - name: twitch
