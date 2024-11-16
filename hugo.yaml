@@ -17,7 +17,7 @@ params:
   authorFediverse: 'onthenubs@que.pasa.co'
 
   label:
-    icon: 'images/OnTheNubs-Web.svg'
+    icon: 'images/OnTheNubs-Web.png'
 
   DateFormat: "2006-01-02"
   defaultTheme: auto
@@ -41,13 +41,15 @@ params:
   tocopen: false
 
   assets:
-    favicon: "/images/favicon.ico"
-    favicon16x16: "/images/favicon-16x16.png"
-    favicon32x32: "/images/favicon-32x32.png"
-    favicon128x128: "/images/favicon-128x128.png"
-    favicon180x180: "/images/favicon-180x180.png"
-    favicon192x192: "/images/favicon-192x192.png"
-    apple_touch_icon: "/images/apple-touch-icon.png"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    favicon48x48: "/favicon-32x32.png"
+    favicon64x64: "/favicon-32x32.png"
+    favicon128x128: "/favicon-128x128.png"
+    favicon180x180: "/favicon-180x180.png"
+    favicon192x192: "/favicon-192x192.png"
+    apple_touch_icon: "/apple-touch-icon.png"
     disableHLJS: true
 
   # home-info mode
