@@ -57,7 +57,7 @@
         {{- with .Params.youtube -}}
         {{ "<h2>Ver Episodio:</h2><iframe src=\"https://www.youtube.com/embed/" | transform.XMLEscape | safeHTML }}{{ . | transform.XMLEscape | safeHTML }}{{ "\"></iframe>" | transform.XMLEscape | safeHTML }}
         {{- end -}}
-        <a href="{{ .Permalink }}">Leer en onthenubs.com →</a>
+        &lt;p&gt;&lt;a href="{{ .Permalink }}"&gt;Leer en onthenubs.com →&lt;/a&gt;&lt;/p&gt;
       </description>
     </item>
     {{- end }}
