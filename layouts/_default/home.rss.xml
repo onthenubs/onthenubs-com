@@ -53,11 +53,11 @@
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>
-        {{ .Content | transform.XMLEscape | safeHTML }}
+        {{ .Content | html }}
         {{- with .Params.youtube -}}
-        {{ "<h2>Ver Episodio:</h2><iframe src=\"https://www.youtube.com/embed/" | transform.XMLEscape | safeHTML }}{{ . | transform.XMLEscape | safeHTML }}{{ "\"></iframe>" | transform.XMLEscape | safeHTML }}
+        {{ (printf "<h2>Ver Episodio:</h2><iframe src=\"https://www.youtube.com/embed/%s\"></iframe>" . ) | html }}
         {{- end -}}
-        {{ (printf "<p><a href=\"%s\">Leer en onthenubs.com →</a></p>" .Permalink) | safeHTML }}
+        {{ (printf "<p><a href=\"%s\">Leer en onthenubs.com →</a></p>" .Permalink) | html }}
       </description>
     </item>
     {{- end }}
