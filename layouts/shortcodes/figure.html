@@ -1,0 +1,68 @@
+<figure{{ if or (.Get "class") (eq (.Get "align") "center") }} class="
+           {{- if eq (.Get "align") "center" }}align-center {{ end }}
+           {{- with .Get "class" }}{{ . }}{{- end }}"
+{{- end -}}>
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end }}
+    {{- $center := ""  }}{{- if eq (.Get "align") "center"}}{{ $center := "#center" }}{{- end }}
+    {{- $responsiveImages := (.Get "responsiveImages" | default site.Params.cover.responsiveImages) | default true }}
+    {{- $pageBundleImage     := ($.Page.Resources.ByType "image").GetMatch (printf "*%s*" (.Get "src")) }}
+    {{- $globalResourcesImage := (resources.ByType "image").GetMatch (printf "*%s*" (.Get "src")) }}
+    {{- $image := (or $pageBundleImage $globalResourcesImage) }}
+    {{- if $image -}}{{/* i.e it is present in page bundle */}}
+        {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
+        {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+        {{- if hugo.IsExtended -}}
+            {{- $processableFormats = $processableFormats | append "webp" -}}
+        {{- end -}}
+        {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+        {{- if (and (in $processableFormats $image.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
+        <img loading="lazy" srcset="{{- range $size := $sizes -}}
+                        {{- if (ge $image.Width $size) -}}
+                        {{ printf "%s%s %s" (($image.Resize (printf "%sx" $size)).Permalink) $center (printf "%sw ," $size) -}}
+                        {{ end }}
+                    {{- end -}}{{$image.Permalink }} {{printf "%dw" ($image.Width)}}" 
+            sizes="(min-width: 768px) 720px, 100vw"
+            src="{{ $image.Permalink }}{{ $center }}"
+            {{- if or (.Get "alt") (.Get "caption") }}
+            alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+            {{- end -}}
+            {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+            {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+        /> <!-- Closing img tag -->
+        {{- else }}{{/* Unprocessable image or responsive images disabled */}}
+        <img loading="lazy" src="{{ .Get "src" }}{{ $center }}"
+            {{- if or (.Get "alt") (.Get "caption") }}
+            alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+            {{- end -}}
+            {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+            {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+        /> <!-- Closing img tag -->
+        {{- end }}
+    {{- else }}{{/* For absolute urls and external links, no img processing here */}}
+            <img loading="lazy" src="{{ .Get "src" }}{{ $center }}"
+                {{- if or (.Get "alt") (.Get "caption") }}
+                alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+                {{- end -}}
+                {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+                {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+            /> <!-- Closing img tag -->
+    {{- end }}
+    {{- if .Get "link" }}</a>{{ end -}}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                {{ . }}
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+        </figcaption>
+    {{- end }}
+</figure>
