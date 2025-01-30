@@ -1,7 +1,7 @@
 ---
 title: "☕️ #90.1 - ¿Cómo migrar de Twitter a Bluesky? Y borrar tus datos de Twitter por el camino"
 slug: cafe-90-adios-twitter-migracion-bluesky
-date: "2025-01-30T08:00:00+00:00"
+date: "2025-01-30T06:00:00+00:00"
 
 programas: "Café OnTheNubs"
 etiquetas:
