@@ -1,0 +1,18 @@
+.home-info {
+  background-image: url('/images/OnTheNubs-Web-anim.svg');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  .home-info {
+  background-image: none;
+  }
+}
+
+@media screen and (min-width: 511px) and (max-width: 600px) {
+  .home-info {
+    background-size: 30%;
+  }
+}
