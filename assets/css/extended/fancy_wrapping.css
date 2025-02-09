@@ -1,0 +1,8 @@
+body {
+  text-wrap: balance;
+}
+
+.logo, .post-meta {
+  flex-shrink: 0;
+  text-wrap: nowrap;
+}

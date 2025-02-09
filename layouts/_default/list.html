@@ -65,7 +65,7 @@
 
 <article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-  <div style="view-transition-name: {{ .Slug }}-slug">
+  <div style="view-transition-name: {{ .Slug }}-cover">
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   </div>
   <header class="entry-header">

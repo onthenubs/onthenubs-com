@@ -99,14 +99,14 @@ menus:
       name: ☕️ Café OnThenubs
       url: programas/café-onthenubs/
       weight: 1
-    - identifier: workshop
-      name: 🛠️ Workshop
-      url: programas/workshop/
-      weight: 2
-    - identifier: pirata
-      name: "🏴‍☠️ Emisión Pirata"
-      url: programas/emisión-pirata/
-      weight: 3
+#    - identifier: workshop
+#      name: 🛠️ Workshop
+#      url: programas/workshop/
+#      weight: 2
+#    - identifier: pirata
+#      name: "🏴‍☠️ Emisión Pirata"
+#      url: programas/emisión-pirata/
+#      weight: 3
     - identifier: etiquetas
       name: 🏷️ Etiquetas
       url: etiquetas/
