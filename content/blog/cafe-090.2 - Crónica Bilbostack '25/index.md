@@ -12,7 +12,7 @@ cover:
 
 colaboradores:
   - capitangolo
-  - laura mosteiro
+  - laura morillo
   - lasdelpulpo
 
 youtube: 49ycmXrtNtI

@@ -8,7 +8,7 @@ etiquetas:
 
 colaboradores:
   - capitangolo
-  - laura mosteiro
+  - laura morillo
   - lasdelpulpo
 
 cover:
