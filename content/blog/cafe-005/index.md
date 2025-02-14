@@ -6,6 +6,12 @@ date: "2021-04-15T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+  - capitangolo
+  - david de torres
+  - eckelon
+  - vicente herrera
+
 cover:
   image: 'images/featured.webp'
   relative: true
