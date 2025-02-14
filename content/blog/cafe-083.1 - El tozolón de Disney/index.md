@@ -6,6 +6,10 @@ date: "2024-10-31T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - capitangolo
+ - melocopon
+
 cover:
   image: 'images/featured.webp'
   relative: true

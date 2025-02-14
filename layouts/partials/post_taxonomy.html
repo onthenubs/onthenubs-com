@@ -11,5 +11,13 @@
     {{- range ( . ) }}
       <li><a href="{{ .Permalink }}">🏷️ {{ .LinkTitle }}</a></li>
     {{- end }}
+    </ul>&nbsp;&nbsp;&nbsp;
+{{- end }}
+
+{{- with ( .GetTerms "colaboradores" ) }}
+    <ul class="post-tags">
+    {{- range ( . ) }}
+      <li><a href="{{ .Permalink }}">👤 {{ .LinkTitle }}</a></li>
+    {{- end }}
     </ul>
 {{- end }}

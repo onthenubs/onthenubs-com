@@ -10,6 +10,11 @@ cover:
   image: 'images/featured.webp'
   relative: true
 
+colaboradores:
+  - capitangolo
+  - laura mosteiro
+  - lasdelpulpo
+
 youtube: 49ycmXrtNtI
 ---
 

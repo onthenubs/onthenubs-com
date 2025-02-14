@@ -91,6 +91,7 @@ params:
 taxonomies:
   programa: programas
   etiqueta: etiquetas
+  colaboradores: colaboradores
 
 
 menus:
@@ -111,3 +112,7 @@ menus:
       name: 🏷️ Etiquetas
       url: etiquetas/
       weight: 4
+    - identifier: colaboradores
+      name: 👤 Colaboradores
+      url: colaboradores/
+      weight: 5

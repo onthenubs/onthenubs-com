@@ -6,6 +6,11 @@ date: "2025-01-30T06:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+  - capitangolo
+  - laura mosteiro
+  - lasdelpulpo
+
 cover:
   image: 'images/featured.webp'
   relative: true

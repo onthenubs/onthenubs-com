@@ -6,6 +6,10 @@ date: "2024-11-06T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - capitangolo
+ - lasdelpulpo
+
 cover:
   image: 'images/featured.webp'
   relative: true
