@@ -18,7 +18,9 @@
     <ul class="post-tags">
     {{- range ( . ) }}
       {{- $slug := replace .Path "/colaboradores/" "" }}
-      <li><a href="{{ .Permalink }}" style="view-transition-name: {{ $slug }}-title;">👤 {{ .LinkTitle }}</a></li>
+      {{- $colaborador := (index .Site.Data.colaboradores $slug) }}
+      {{- $title := (default .LinkTitle $colaborador.name) }}
+      <li><a href="{{ .Permalink }}" style="view-transition-name: {{ $slug }}-title;">👤 {{ $title }}</a></li>
     {{- end }}
     </ul>
 {{- end }}

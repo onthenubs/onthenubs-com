@@ -1,6 +1,6 @@
 .page-header .colaborador-card {
   flex-flow: column; display: flex;
-  align-items: center;
+  align-items: end;
   padding: 20px 0px;
 }
 
@@ -26,25 +26,7 @@
 
 
 @media(min-width: 720px) {
-.page-header .colaborador-card {
-  flex-flow: row-reverse nowrap; display: flex;
-  align-items: center;
-  padding: 20px 0px;
-}
-
-.page-header .colaborador-card .social-icons {
-  style: text-wrap: wrap;
-}
-
-.page-header .colaborador-card .header-headsot img {
-  style: padding-top: 50px; min-width: 200px; min-height: 200px;
-}
-
-.page-header .colaborador-card .colaborador-bio {
-  padding: 10px;
-}
-
-.page-header .colaborador-card .colaborador-web {
-  padding: 10px;
-}
+  .page-header .colaborador-card {
+    flex-flow: row-reverse nowrap; display: flex;
+  }
 }
