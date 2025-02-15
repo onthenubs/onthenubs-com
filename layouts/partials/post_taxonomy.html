@@ -20,7 +20,16 @@
       {{- $slug := replace .Path "/colaboradores/" "" }}
       {{- $colaborador := (index .Site.Data.colaboradores $slug) }}
       {{- $title := (default .LinkTitle $colaborador.name) }}
-      <li><a href="{{ .Permalink }}" style="view-transition-name: {{ $slug }}-title;">👤 {{ $title }}</a></li>
+      <li><a href="{{ .Permalink }}">
+        {{- with $colaborador.headshot }}
+        {{- with resources.Get . }}
+        <img src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
+        {{- end }}
+        {{- else }}
+        👤
+        {{- end }}
+        <span style="view-transition-name: {{ $slug }}-title;">{{ $title }}</span>
+      </a></li>
     {{- end }}
     </ul>
 {{- end }}
