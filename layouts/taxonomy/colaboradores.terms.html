@@ -1,0 +1,48 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header colaboradores-terms-header">
+    <h1>👤 Equipo y Acompañantes</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+<div class="colaboradores-list">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $slug := $name | urlize }}
+    {{- $count := .Count }}
+    {{- $colaborador := (index $.Site.Data.colaboradores $slug) }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <div class="colaborador-card">
+        <a href="{{ .Permalink }}">
+          {{- with $colaborador.headshot }}
+          {{- with resources.Get . }}
+          <div class="colaborador-headshot">
+            <img src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
+          </div>
+          {{- end }}
+          {{- else }}
+          <div class="colaborador-headshot-empty"></div>
+          {{- end }}
+          <div class="colaborador-title" style="view-transition-name: {{$slug}}-title;">
+            {{ default .Name $colaborador.name }}
+            <small>
+            {{ with $colaborador.alias }}<br/>{{ . }}{{ end }}
+            {{ with $colaborador.pronouns }} ({{ . }}){{ end }}
+            <br />
+            📺 {{ $count }}
+            </small>
+          </div>
+        </a>
+    </div>
+    {{- end }}
+    {{- end }}
+</div>
+
+{{- end }}{{/* end main */ -}}

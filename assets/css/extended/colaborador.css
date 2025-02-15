@@ -9,6 +9,8 @@
   max-width: 300px;
   min-height: 200px;
   max-height: 300px;
+  border-radius: 150px;
+  background-color: #252525;
 }
 
 .page-header .colaborador-card .colaborador-bio {

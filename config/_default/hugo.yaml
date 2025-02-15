@@ -113,6 +113,6 @@ menus:
       url: etiquetas/
       weight: 4
     - identifier: colaboradores
-      name: 👤 Colaboradores
+      name: 👤 Equipo
       url: colaboradores/
       weight: 5

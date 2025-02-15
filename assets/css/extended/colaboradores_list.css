@@ -1,0 +1,58 @@
+.colaboradores-terms-header {
+  margin-bottom: 80px;
+}
+
+.colaboradores-list {
+  display: grid;
+  gap: 1em 0.4em;
+}
+
+@media(min-width: 0px) {
+  .colaboradores-list {
+    grid-template-columns: 1fr;
+  }
+}
+@media(min-width: 360px) {
+  .colaboradores-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(min-width: 540px) {
+  .colaboradores-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media(min-width: 720px) {
+  .colaboradores-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.colaboradores-list .colaborador-card {
+  padding: 1em;
+  border-radius: 20px;
+  transition: background-color .5s;
+}
+
+.colaboradores-list .colaborador-card:hover {
+  background-color: #252525;
+}
+
+.colaboradores-list .colaborador-card .colaborador-headshot-empty {
+  min-height: 140px;
+  min-width: 140px;
+
+}
+
+.colaboradores-list .colaborador-card .colaborador-headshot img, .colaboradores-list .colaborador-card .colaborador-headshot-empty {
+  max-height: 140px;
+  margin: 0px auto 12px auto;
+  border-radius: 100px;
+  background-color: #252525;
+}
+
+.colaboradores-list .colaborador-card .colaborador-title {
+  font-family: "justus pro", system-ui, -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Oxygen, Ubuntu, Cantarell, "open sans", "helvetica neue", sans-serif;
+  text-align: center;
+  font-size: 12pt;
+}

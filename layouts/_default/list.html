@@ -32,7 +32,7 @@
       {{- with $colaborador.headshot }}
       {{- with resources.Get . }}
       <div class="header-headsot">
-        <img src="{{.Permalink}}" />
+        <img src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
       </div>
       {{- end }}
       {{- end }}
