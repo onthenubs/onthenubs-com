@@ -1,6 +1,9 @@
 name: "Melocopón"
 alias: "Miriam Domingo"
 pronouns: "Ella"
+bio: "During the early years of my proffesional carreer I stayed mostly on support-oriented and helpdesk possitions, thanks to which I have developed a proper troubleshooting capacity, this also came alongside an effective mindset for documentation and mentoring based on the knowledge I did obtain. At the moment I'm going through a learning path as devops, which allows me to get a more comprehensive mindset about these new technologies I'm currently using. (I.e Jenkins, Rancher as GUI for Kubernetes management)."
+
+headshot: "/images/colaboradores/melocopon.webp"
 socialIcons:
   - name: mastodon
     url: "https://hachyderm.io/@melocopon"

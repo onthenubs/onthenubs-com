@@ -1,6 +1,8 @@
 name: "Dede"
 alias: "Devid Dokash"
 pronouns: "Él"
+bio: "Driven by a passion for innovation and problem-solving, I thrive in dynamic environments where I can blend technical skills with creativity to deliver impactful solutions."
+headshot: "/images/colaboradores/dede.webp"
 socialIcons:
   - name: linkedin
     url: "https://www.linkedin.com/in/ddok/"

@@ -1,0 +1,8 @@
+name: "Néstor"
+alias: "Néstor Salceda"
+pronouns: "Él"
+bio: "Néstor tiene como objetivo empoderar a las organizaciones en la protección de sus operaciones mediante soluciones de ciberseguridad enfocadas en la tecnología operativa. Es reconocido en la comunidad tecnológica por sus contribuciones a proyectos de código abierto como Kubernetes, Helm y Falco. Sus artículos y herramientas sobre escalabilidad, observabilidad y seguridad son utilizados por empresas de primer nivel en todo el mundo."
+headshot: "/images/colaboradores/nestor-salceda.webp"
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/nestorsalceda/"

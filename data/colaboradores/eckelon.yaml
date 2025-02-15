@@ -1,6 +1,8 @@
 name: "Eckelon"
 alias: "Jesús Ángel Samitier"
 pronouns: "Él"
+bio: "I consider myself a passionate developer whose job is also a hobby. I like both front-end and back-end development. I have experience developing web applications using several frameworks and technologies. My workflow usually includes trying to automate every task I can during development, testing and deployment. Since I like to continuously learn new things and improve my skills, I usually attend workshops and courses related to the IT Industry, and I’ve also run some workshops in my company and in the local community."
+headshot: "/images/colaboradores/eckelon.webp"
 socialIcons:
   - name: bluesky
     url: "https://bsky.app/profile/eckelon.bsky.social"
