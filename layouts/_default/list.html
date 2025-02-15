@@ -10,54 +10,56 @@
   {{- if (and (eq .Kind `term`) (eq .Parent.Title `Colaboradores`)) }} {{/* Colaboradores header */}}
   {{- $slug := replace .Path "/colaboradores/" "" }}
   {{- $colaborador := (index .Site.Data.colaboradores $slug) }}
-  <div style="flex-flow: row nowrap; display: flex;">
-    <div>
-      <h1>
-        {{ with $colaborador.name }}{{ . }}{{ else }}{{ .Title }}{{ end }}
-        {{ with $colaborador.alias }}<br />{{ . }}{{ end }}
-        {{ with $colaborador.pronouns }} ({{ . }}){{ end }}
-        {{- if (.Param "ShowRssButtonInSectionTermList") }}
-        {{- with .OutputFormats.Get "rss" }}
-        <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" height="23">
-            <path d="M4 11a9 9 0 0 1 9 9" />
-            <path d="M4 4a16 16 0 0 1 16 16" />
-            <circle cx="5" cy="19" r="1" />
-          </svg>
-        </a>
-        {{- end }}
-        {{- end }}
-      </h1>
-      {{- with $colaborador.bio }}
-      <div class="post-description">
-        <p>{{ . | markdownify }}</p>
+  <div class="colaborador-header">
+    <h1 style="view-transition-name: {{ $slug }}-title;">
+      {{ with $colaborador.name }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+      {{ with $colaborador.alias }}<br />{{ . }}{{ end }}
+      {{ with $colaborador.pronouns }} ({{ . }}){{ end }}
+      {{- if (.Param "ShowRssButtonInSectionTermList") }}
+      {{- with .OutputFormats.Get "rss" }}
+      <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" height="23">
+          <path d="M4 11a9 9 0 0 1 9 9" />
+          <path d="M4 4a16 16 0 0 1 16 16" />
+          <circle cx="5" cy="19" r="1" />
+        </svg>
+      </a>
+      {{- end }}
+      {{- end }}
+    </h1>
+    <div class="colaborador-card">
+      {{- with $colaborador.headshot }}
+      {{- with resources.Get . }}
+      <div class="header-headsot">
+        <img src="{{.Permalink}}" />
       </div>
       {{- end }}
-      {{- with $colaborador.web }}
-      <div>
-        <strong>🌐</strong> <a href="{{ . }}">{{ replace . "https://" "" }}</a>
-      </div>
       {{- end }}
-      {{- with $colaborador.socialIcons }}
-      <div class="social-icons" style="text-wrap: wrap;">
-        {{- range . }}
-        <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
-            title="{{ (.title | default .name) | title }}">
-            {{ partial "svg.html" . }}
-        </a>
+      <div class="colaborador-details">
+        {{- with $colaborador.bio }}
+        <div class="colaborador-bio">
+          <p>{{ . | markdownify }}</p>
+        </div>
+        {{- end }}
+        {{- with $colaborador.web }}
+        <div class="colaborador-web">
+          <strong>+</strong> <a href="{{ . }}">{{ replace . "https://" "" }}</a>
+        </div>
+        {{- end }}
+        {{- with $colaborador.socialIcons }}
+        <div class="social-icons">
+          {{- range . }}
+          <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+             title="{{ (.title | default .name) | title }}">
+              {{ partial "svg.html" . }}
+          </a>
+          {{- end }}
+        </div>
         {{- end }}
       </div>
     </div>
-    {{- with $colaborador.headshot }}
-    {{- with resources.Get . }}
-    <div>
-      <img src="{{.Permalink}}" style="padding-top: 50px; min-width: 200px; min-height: 200px;" />
-    </div>
-    {{- end }}
-    {{- end }}
   </div>
-  {{ end }}
   {{- else }} {{/* Regular header */}}
   <h1>
     {{ .Title }}

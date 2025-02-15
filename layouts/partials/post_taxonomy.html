@@ -17,7 +17,8 @@
 {{- with ( .GetTerms "colaboradores" ) }}
     <ul class="post-tags">
     {{- range ( . ) }}
-      <li><a href="{{ .Permalink }}">👤 {{ .LinkTitle }}</a></li>
+      {{- $slug := replace .Path "/colaboradores/" "" }}
+      <li><a href="{{ .Permalink }}" style="view-transition-name: {{ $slug }}-title;">👤 {{ .LinkTitle }}</a></li>
     {{- end }}
     </ul>
 {{- end }}
