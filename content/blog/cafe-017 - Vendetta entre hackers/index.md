@@ -6,6 +6,12 @@ date: "2021-07-01T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - capitangolo
+ - david de torres
+ - eckelon
+ - martapatata
+
 cover:
   image: 'images/featured.webp'
   relative: true

@@ -9,7 +9,12 @@ etiquetas:
 cover:
   image: 'images/featured.webp'
   relative: true
-  
+
+colaboradores:
+ - capitangolo
+ - carillan
+ - david gonzalez
+
 youtube: FLnYas1KWFU
 ---
 

@@ -6,6 +6,13 @@ date: "2023-03-16T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - capitangolo
+ - martapatata
+ - dede
+ - alba baucells
+ - weseven
+
 cover:
   image: 'images/featured.webp'
   relative: true

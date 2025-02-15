@@ -6,6 +6,10 @@ date: "2022-11-16T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - lasdelpulpo
+ - daniel forcen
+
 cover:
   image: 'images/featured.webp'
   relative: true

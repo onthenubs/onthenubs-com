@@ -10,6 +10,10 @@ cover:
   image: 'images/featured.webp'
   relative: true
 
+colaboradores:
+ - capitangolo
+ - weseven
+
 youtube: u0yjzJuj5K0
 ---
 

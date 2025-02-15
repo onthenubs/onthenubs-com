@@ -7,6 +7,11 @@ programas: "Café OnTheNubs"
 etiquetas:
 - "Piloto"
 
+colaboradores:
+ - capitangolo
+ - david de torres
+ - eckelon
+
 cover:
   image: 'images/featured.webp'
   relative: true

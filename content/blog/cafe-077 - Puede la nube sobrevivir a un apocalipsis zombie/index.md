@@ -10,6 +10,10 @@ cover:
   image: 'images/featured.webp'
   relative: true
 
+colaboradores:
+ - capitangolo
+ - lasdelpulpo
+
 youtube: qK4MG8y-89M
 ---
 

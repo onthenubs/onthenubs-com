@@ -10,6 +10,9 @@ cover:
   image: 'images/featured.webp'
   relative: true
 
+colaboradores:
+ - capitangolo
+
 youtube: dDDIKmETwYc
 ---
 

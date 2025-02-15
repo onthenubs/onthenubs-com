@@ -6,6 +6,9 @@ date: "2023-02-22T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - miguel
+
 cover:
   image: 'images/featured.webp'
   relative: true

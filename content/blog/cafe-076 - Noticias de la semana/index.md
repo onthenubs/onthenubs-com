@@ -6,6 +6,10 @@ date: "2023-03-01T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - lasdelpulpo
+ - melocopon
+
 cover:
   image: 'images/featured.webp'
   relative: true

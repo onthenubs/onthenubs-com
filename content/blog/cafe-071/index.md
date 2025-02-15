@@ -6,6 +6,10 @@ date: "2023-01-18T08:00:00+00:00"
 programas: "Café OnTheNubs"
 etiquetas:
 
+colaboradores:
+ - capitangolo
+ - miguel
+
 cover:
   image: 'images/featured.webp'
   relative: true
