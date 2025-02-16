@@ -22,9 +22,6 @@ youtube: FrhDTWZcAZ4
 - [AI Slop Website Sent Thousands of People to a Halloween Parade That Didn’t Exist](https://gizmodo.com/ai-slop-website-sent-thousands-of-people-to-a-halloween-parade-that-didnt-exist-2000519496)
 - [OpenAI Takes on Google With New ChatGPT Search](https://gizmodo.com/openai-takes-on-google-with-new-chatgpt-search-2000519078)
 - [EMERALDWHALE exploits vulnerable Git configuration files](https://www.developer-tech.com/news/emeraldwhale-exploits-vulnerable-git-configuration-files/)
-
-{{< twitter user="blissy" id="1853813760135450751" >}}
-
 - [For the first time ever, AMD outsells Intel in the datacenter space](https://www.tomshardware.com/pc-components/cpus/for-the-first-time-ever-amd-outsells-intel-in-the-datacenter-space)
 
 ## Elecciones en USA
