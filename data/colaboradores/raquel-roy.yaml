@@ -1,3 +1,16 @@
 name: "Raquel Roy"
 pronouns: "Ella"
 role: "Colaboradores"
+bio:
+  - "Atleta de kárate🥋 |👩🏽‍💻Ingeniera Informática"
+  - "📍Zaragoza"
+  - "🌎 Campeonato del Mundo🥇"
+  - "🇪🇺 De Europa 4x🥇"
+  - "🇪🇸 De España x10🥇"
+  - "🏆 Karate 1🥈🥈🥉🥉"
+website: "alacarta.aragontelevision.es/programas/una-vida-de-esfuerzo/cap-25-raquel-roy-22112020-1251"
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/raquel-roy-rubio-9a3501244/"
+  - name: instagram
+    url: "https://www.instagram.com/raquelroyrubio/"

@@ -1,8 +1,10 @@
 name: "Miguel Hernández"
 pronouns: "Él"
 role: "Equipo"
-bio: "Miguel Hernández, Threat Research Engineer at Sysdig, is a lifelong learner with a passion for innovation. Over the past decade, Miguel has honed his expertise in security research, leaving his mark at prominent tech companies and fostering a spirit of collaboration through personal open-source initiatives. Miguel has been a featured speaker at cybersecurity conferences such as HITB, HIP, CCN-CERT, RootedCon, TheStandoff, and Codemotion."
-headshot: "/images/colaboradores/miguel.webp"
+bio:
+  - "Miguel Hernández, ingeniero de investigación en amenazas en Sysdig, es un aprendiz incansable con una gran pasión por la innovación."
+  - "A lo largo de la última década, ha perfeccionado su experiencia en investigación de seguridad, dejando su huella en destacadas empresas tecnológicas y fomentando un espíritu de colaboración a través de iniciativas personales de código abierto."
+  - "Miguel ha sido ponente en conferencias de ciberseguridad como HITB, HIP, CCN-CERT, RootedCon, TheStandoff y Codemotion."
 socialIcons:
   - name: linkedin
     url: "https://www.linkedin.com/in/miguelhzbz/"

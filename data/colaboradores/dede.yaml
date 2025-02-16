@@ -2,8 +2,7 @@ name: "Dede"
 alias: "Devid Dokash"
 pronouns: "Él"
 role: "Equipo"
-bio: "Driven by a passion for innovation and problem-solving, I thrive in dynamic environments where I can blend technical skills with creativity to deliver impactful solutions."
-headshot: "/images/colaboradores/dede.webp"
+bio: "Impulsado por una pasión por la innovación y la resolución de problemas, me desenvuelvo bien en entornos dinámicos donde puedo combinar habilidades técnicas con creatividad para ofrecer soluciones impactantes."
 socialIcons:
   - name: linkedin
     url: "https://www.linkedin.com/in/ddok/"

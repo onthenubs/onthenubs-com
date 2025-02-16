@@ -1,0 +1,11 @@
+name: "Laura Morillo"
+pronouns: "Ella"
+role: "Colaboradores"
+bio:
+  - "Llevo desarrollando diversos tipos de aplicaciones desde 2007. Durante este tiempo, he trabajado con varios lenguajes y frameworks, adaptándome al mercado y a las necesidades de mi trabajo, siempre con la intención de adquirir nuevos conocimientos. El aprendizaje continuo es uno de los aspectos que más valoro en mi profesión."
+  - "Especialidades: Microservicios, Kubernetes, desarrollo web, testing, metodologías ágiles."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/lauramorillovelarderodriguez/"
+  - name: bluesky
+    url: "https://bsky.app/profile/lauramorillo.bsky.social"

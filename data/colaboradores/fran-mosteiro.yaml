@@ -1,0 +1,13 @@
+name: "Fran Mosteiro"
+pronouns: "Él"
+role: "Colaboradores"
+bio:
+  - "Trabajo como ingeniero de software desde finales de 2007."
+  - "Me defino como un “ingeniero de producto” y trato de aplicar un enfoque Lean, Agile y DevOps a todo en lo que trabajo."
+  - "Jugador de equipo y líder en la sombra, colaboro con los equipos para que sean cada vez más efectivos, autoorganizados y felices, sin perder de vista el negocio ni la excelencia técnica."
+  - "Además, coorganizo BilboStack, un evento hecho por y para profesionales de la tecnología, que se celebra cada año el último fin de semana de enero en Bilbao."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/franmosteiro/"
+  - name: bluesky
+    url: "https://bsky.app/profile/franmosteiro.bsky.social"

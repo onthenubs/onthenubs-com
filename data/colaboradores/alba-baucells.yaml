@@ -2,9 +2,11 @@ name: "Granate"
 alias: "Alba Baucells"
 pronouns: "Elle/Ella"
 role: "Colaboradores"
-bio: "Bau - Granate - Be kind."
+bio:
+ - "Graduada en Filosofía por la Universidad de Zaragoza y estudiante de Doblaje en Estudios Roma (Zaragoza)."
+ - "Be kind."
+ - 'Tengo un podcast llamado "uncortadocon".'
 web: "open.spotify.com/show/1zGZsO1e8gMzVeQBYIT8Sn"
-headshot: "/images/colaboradores/alba-baucells.webp"
 socialIcons:
   - name: linkedin
     url: "https://www.linkedin.com/in/alba-baucells-984a1094/"

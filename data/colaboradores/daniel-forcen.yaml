@@ -1,3 +1,8 @@
 name: "Daniel Forcén"
 pronouns: "Él"
 role: "Colaboradores"
+bio: "Daniel es un jugador de Ajedrez con el título de Gran Maestro Internacional, que es otorgado por la Federación Internacional de Ajedrez a jugadores de ajedrez que alcanzan determinado nivel de excelencia."
+socialIcons:
+  - name: linkedIn
+    url: https://www.linkedin.com/in/daniel-forcén-esteban-b44b035a/
+

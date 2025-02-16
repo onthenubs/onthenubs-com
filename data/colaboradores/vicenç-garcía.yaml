@@ -1,0 +1,14 @@
+name: "Vicenç Garcia"
+pronouns: "Él"
+role: "Colaboradores"
+bio:
+  - "Padre y Desarrollador de Software. Organizador del Bilbostack."
+  - "Llevo más de 14 años desarrollando software, primero en un entorno académico, combinándolo con la formación, y luego en el sector privado."
+  - "Soy miembro activo de la comunidad Agile Spain, participando en la organización de AOS2010 y CAS2010, además de impulsar los grupos locales de Barcelona y Zona Norte, organizando otros eventos locales. Soy Certified Scrum Master y Microsoft Certified Professional, y escribo en mi blog personal."
+  - "Especialidades: .NET, Agile, ALM, CI/CD, Serverless, TDD, BDD."
+web<D-r>: "https://vgaltes.com"
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/vgaltes/"
+  - name: bluesky
+    url: "https://bsky.app/profile/vgaltes.com"

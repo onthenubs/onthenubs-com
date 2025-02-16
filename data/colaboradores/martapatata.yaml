@@ -2,4 +2,7 @@ name: "MartaPatata"
 alias: "Marta Sánchez"
 pronouns: "Ella"
 role: "Colaboradores"
-headshot: "/images/colaboradores/martapatata.webp"
+bio: "Para ti, señora Patata. Experta comepipas con la mano izquierda."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/martasanchezsimon/"

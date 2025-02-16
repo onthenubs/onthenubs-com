@@ -1,8 +1,11 @@
 name: "Vicente Herrera"
 pronouns: "Él"
 role: "Equipo"
-bio: "Researching AI security and safety. Emergent tech cybersecurity at control-plane.io. Lecturer at Loyola University: a) Blockchain b) AI ethics. ML author at O'Reilly."
-headshot: "/images/colaboradores/vicente-herrera.webp"
+bio:
+  - "Investigando la seguridad y fiabilidad de la IA."
+  - "Ciberseguridad en tecnologías emergentes en control-plane.io."
+  - "Profesor en la Universidad Loyola en: a) Blockchain b) Ética de la IA."
+  - "Autor sobre aprendizaje automático en O’Reilly."
 socialIcons:
   - name: bluesky
     url: "https://bsky.app/profile/vicenteherrera.com"

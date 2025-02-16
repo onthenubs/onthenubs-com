@@ -1,8 +1,9 @@
 name: "Daniel Simionato"
 pronouns: "Él"
 role: "Equipo"
-bio: "Linux/Containers/Kubernetes and cloud native technologies are where I feel at home, and I've been working on these for a few years, hands on as a Sysadmin/DevOps engineer/Site Reliability engineer, and hands off (almost!) as Cloud architect, Technical content engineer and Technical Marketing Manager."
-headshot: "/images/colaboradores/weseven.webp"
+bio:
+  - "Linux, contenedores, Kubernetes y las tecnologías cloud-native son mi hábitat natural, y llevo varios años trabajando con ellas."
+  - "He tenido un enfoque práctico como administrador de sistemas, ingeniero DevOps y de fiabilidad del sitio (SRE), y un enfoque más estratégico (¡aunque no del todo!) como arquitecto de nube, ingeniero de contenido técnico y gerente de marketing técnico."
 socialIcons:
   - name: linkedin
     url: "https://www.linkedin.com/in/danielsimionato/"
