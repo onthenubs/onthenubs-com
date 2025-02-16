@@ -29,17 +29,19 @@
       {{- end }}
     </h1>
     <div class="colaborador-card">
-      {{- with $colaborador.headshot }}
-      {{- with resources.Get . }}
+      {{- with resources.Get (printf "/images/colaboradores/%s.webp" $slug) }}
       <div class="header-headsot">
         <img src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
       </div>
       {{- end }}
-      {{- end }}
       <div class="colaborador-details">
         {{- with $colaborador.bio }}
         <div class="colaborador-bio">
+          {{- if eq (printf "%T" .) "string" }}
           <p>{{ . | markdownify }}</p>
+          {{- else if eq (printf "%T" .) "[]interface {}" }}
+          {{- range . }}<p>{{ . | markdownify }}</p>{{- end}}
+          {{- end }}
         </div>
         {{- end }}
         {{- with $colaborador.web }}

@@ -3,12 +3,15 @@
 }
 
 .page-header .colaborador-card {
-  flex-flow: column; display: flex;
+  display: flex;
+  flex-flow: column;
   align-items: center;
+  justify-content: center;
   padding: 20px 0px;
 }
 
 .page-header .colaborador-card .colaborador-details {
+  min-width: 320px;
   max-width: 100%;
   overflow: hidden;
 }
@@ -24,12 +27,16 @@
 }
 
 .page-header .colaborador-card .colaborador-bio {
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
   text-wrap: balance;
 }
 
+.page-header .colaborador-card .colaborador-bio p {
+  margin-bottom: 10px;
+}
+
 .page-header .colaborador-card .colaborador-web {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .page-header .colaborador-card a {
@@ -45,6 +52,7 @@
 @media(min-width: 720px) {
   .page-header .colaborador-card {
     flex-flow: row-reverse nowrap; display: flex;
+    justify-content: space-between;
   }
 
   .page-header .colaborador-card .header-headshot img{

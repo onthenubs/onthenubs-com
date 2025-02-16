@@ -22,9 +22,9 @@
     {{- range $all_colaboradores }}
     {{-   $taxonomy := . }}
     {{-   $name := $taxonomy.Name }}
-    {{-   $slug := $name | urlize }}
-    {{-   $colaborador := (index $.Site.Data.colaboradores $slug) }}
     {{-   $page := site.GetPage (printf "/%s/%s" $type $name) }}
+    {{-   $slug := replace $page.Path "/colaboradores/" "" }}
+    {{-   $colaborador := (index $.Site.Data.colaboradores $slug) }}
     {{-   with (eq $colaborador.role "Fundadores") }}
     {{-     $fundadores = append (dict "slug" $slug "data" $colaborador "page" $page "taxonomy" $taxonomy ) $fundadores }}
     {{-   end }}
@@ -62,12 +62,10 @@
     {{-     $count := .taxonomy.Count }}
     <div class="colaborador-card">
         <a href="{{ $page.Permalink }}">
-    {{-     with $colaborador.headshot }}
-    {{-       with resources.Get . }}
+    {{-     with resources.Get (printf "/images/colaboradores/%s.webp" $slug) }}
           <div class="colaborador-headshot">
             <img src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
           </div>
-    {{-       end }}
     {{-     else }}
           <div class="colaborador-headshot-empty"></div>
     {{-     end }}
