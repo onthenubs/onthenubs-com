@@ -19,7 +19,7 @@ cover:
 youtube: GKa3mPxhPRk
 ---
 
-## News in one min
+## Noticias en un minuto
 
 - [UAB](https://www.genbeta.com/actualidad/uab-iba-a-tardar-dias-recuperarse-ciberataque-ransomware-ahora-expectativa-hacerlo-a-puertas-2022) sigue caida y va para largo.
 - [Facebook](https://www.businessinsider.es/como-conseguir-trabajo-facebook-metaverso-directivo-953673) y [AWS](https://www.heraldo.es/noticias/aragon/zaragoza/2021/04/29/amazon-web-services-ofertas-trabajo-zaragoza-1488333.html) quieren contratar gente en España y sobre todo en Zárágózá, así que ponte a estudiar cloud.
