@@ -1,5 +1,5 @@
 {{- with ( .GetTerms "programas" ) }}
-    <ul class="post-tags">
+    <ul class="post-tags tags-programas">
     {{- range ( . ) }}
       <li><a href="{{ .Permalink }}">📺 {{ .LinkTitle }}</a></li>
     {{- end }}
@@ -7,7 +7,7 @@
 {{- end }}
 
 {{- with ( .GetTerms "etiquetas" ) }}
-    <ul class="post-tags">
+    <ul class="post-tags tags-tags">
     {{- range ( . ) }}
       <li><a href="{{ .Permalink }}">🏷️ {{ .LinkTitle }}</a></li>
     {{- end }}
@@ -15,16 +15,14 @@
 {{- end }}
 
 {{- with ( .GetTerms "colaboradores" ) }}
-    <ul class="post-tags">
+    <ul class="post-tags tags-colaboradores">
     {{- range ( . ) }}
       {{- $slug := replace .Path "/colaboradores/" "" }}
       {{- $colaborador := (index .Site.Data.colaboradores $slug) }}
       {{- $title := (default .LinkTitle $colaborador.name) }}
       <li><a href="{{ .Permalink }}">
-        {{- with $colaborador.headshot }}
-        {{- with resources.Get . }}
+        {{- with resources.Get (printf "/images/colaboradores/%s.webp" $slug) }}
         <img src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
-        {{- end }}
         {{- else }}
         👤
         {{- end }}

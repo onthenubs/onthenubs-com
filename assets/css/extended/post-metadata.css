@@ -2,9 +2,13 @@
   margin: 4px 0px;
 }
 
+.post-tags.tags-colaboradores a {
+  padding: 0px 14px 0px 4px;
+}
+
 .post-tags img {
-  max-width: 20px;
+  max-width: 32px;
   display: inline;
-  vertical-align: text-bottom;
+  vertical-align: bottom;
   margin-right: 4px;
 }
