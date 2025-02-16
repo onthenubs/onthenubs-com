@@ -1,6 +1,10 @@
+.page-header .colaborador-header h1 {
+  text-wrap: wrap;
+}
+
 .page-header .colaborador-card {
   flex-flow: column; display: flex;
-  align-items: end;
+  align-items: center;
   padding: 20px 0px;
 }
 
@@ -11,6 +15,7 @@
   max-height: 300px;
   border-radius: 150px;
   background-color: #252525;
+  margin: 0px auto;
 }
 
 .page-header .colaborador-card .colaborador-bio {
@@ -26,9 +31,13 @@
   text-decoration: underline;
 }
 
-
 @media(min-width: 720px) {
   .page-header .colaborador-card {
     flex-flow: row-reverse nowrap; display: flex;
   }
+
+  .page-header .colaborador-card .header-headshot img{
+    margin: 0px auto 0px auto;
+  }
+
 }
