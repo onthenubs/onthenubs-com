@@ -1,0 +1,9 @@
+name: "Ainhoa Saló"
+pronouns: "Ella"
+role: "Colaboradores"
+bio:
+  - "Soy Ainhoa, mañica de nacimiento y vasca de adopción."
+  - "Frontend Developer."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/ainhoa-salo-hernandez/"
