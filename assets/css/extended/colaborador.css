@@ -8,6 +8,11 @@
   padding: 20px 0px;
 }
 
+.page-header .colaborador-card .colaborador-details {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .page-header .colaborador-card .header-headsot img {
   min-width: 200px;
   max-width: 300px;
@@ -29,6 +34,12 @@
 
 .page-header .colaborador-card a {
   text-decoration: underline;
+}
+
+.page-header .colaborador-header .colaborador-card .colaborador-web {
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media(min-width: 720px) {
