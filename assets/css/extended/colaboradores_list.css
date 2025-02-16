@@ -2,9 +2,14 @@
   margin-bottom: 80px;
 }
 
+.colaboradores-list-section-header {
+  margin-bottom: 20px;
+}
+
 .colaboradores-list {
   display: grid;
   gap: 1em 0.4em;
+  margin-bottom: 60px;
 }
 
 @media(min-width: 0px) {
