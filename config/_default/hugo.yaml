@@ -108,10 +108,10 @@ menus:
 #      name: "🏴‍☠️ Emisión Pirata"
 #      url: programas/emisión-pirata/
 #      weight: 3
-    - identifier: etiquetas
-      name: 🏷️ Etiquetas
-      url: etiquetas/
-      weight: 4
+#    - identifier: etiquetas
+#      name: 🏷️ Etiquetas
+#      url: etiquetas/
+#      weight: 4
     - identifier: colaboradores
       name: 👤 Equipo
       url: colaboradores/
