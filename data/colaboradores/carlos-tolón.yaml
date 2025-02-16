@@ -1,0 +1,10 @@
+name: "Carlos Tolón"
+pronouns: "Él"
+role: "Colaboradores"
+bio:
+  - "Llevo más de seis años trabajando con tecnologías de contenedores como Docker, Kubernetes y OpenShift. Además, estoy desarrollando arquitecturas de observabilidad con herramientas de código abierto como Prometheus."
+  - "En los últimos dos años, también he trabajado en temas relacionados con DevOps, principalmente en integración y despliegue continuo con Jenkins en plataformas de contenedores, gestión de repositorios de código y artefactos, análisis de código estático y automatización de procesos."
+  - "Asimismo, estoy especializado en herramientas de seguridad y sigo mejorando mis habilidades en la integración de la seguridad dentro de los procesos de CI/CD."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/carlos-tolón-martín-422382b9/"
