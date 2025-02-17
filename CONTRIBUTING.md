@@ -4,6 +4,14 @@
 * Correcciones ortográficas
 
 # Pasos a seguir
-1. Haz un fork del repo en tu cuenta
-2. haz las modificaciones
-3. Crea una Pull Request (PR)
+1. Haz fork del repo en tu cuenta
+2. Lanza 
+```
+git submodule update --init --recursive
+```
+3. Lanza en local el blog de Hugo:
+```
+hugo server --disableFastRender --buildFuture --buildDrafts --cleanDestinationDir
+```
+4. Haz las modificaciones
+5. Crea una Pull Request (PR)
