@@ -10,6 +10,7 @@ colaboradores:
  - capitangolo
  - lasdelpulpo
  - dani latorre
+ - patricia martinez
 
 cover:
   image: 'images/featured.webp'
