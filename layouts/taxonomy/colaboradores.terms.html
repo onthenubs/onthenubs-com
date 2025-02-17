@@ -64,7 +64,7 @@
         <a href="{{ $page.Permalink }}">
     {{-     with resources.Get (printf "/images/colaboradores/%s.webp" $slug) }}
           <div class="colaborador-headshot">
-            <img src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
+            <img alt="{{$colaborador.alias}}" src="{{.Permalink}}" style="view-transition-name: {{$slug}}-headshot;" />
           </div>
     {{-     else }}
           <div class="colaborador-headshot-empty"></div>
