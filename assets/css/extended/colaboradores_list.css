@@ -40,20 +40,19 @@
 }
 
 .colaboradores-list .colaborador-card:hover {
-  background-color: #aaa;
+  background-color: var(--border);
 }
 
 .colaboradores-list .colaborador-card .colaborador-headshot-empty {
   min-height: 140px;
   min-width: 140px;
-
 }
 
 .colaboradores-list .colaborador-card .colaborador-headshot img, .colaboradores-list .colaborador-card .colaborador-headshot-empty {
   max-height: 140px;
   margin: 0px auto 12px auto;
   border-radius: 100px;
-  background-color: #252525;
+  background-color: var(--border);
 }
 
 .colaboradores-list .colaborador-card .colaborador-title {
