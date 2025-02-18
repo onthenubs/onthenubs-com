@@ -14,6 +14,8 @@ cover:
   image: 'images/featured.webp'
   relative: true
 
+draft: true
+
 youtube: rUqBCcHNzF8
 ---
 
