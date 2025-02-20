@@ -3,9 +3,9 @@ alias: "Miriam Domingo"
 pronouns: "Ella"
 role: "Equipo"
 bio:
-  - "Durante los primeros años de mi carrera profesional, trabajé principalmente en puestos orientados al soporte y helpdesk, gracias a lo cual desarrollé una sólida capacidad de resolución de problemas."
-  - "Esto también me permitió adoptar una mentalidad efectiva para la documentación y la mentoría, basada en los conocimientos que adquirí."
-  - "Actualmente, estoy siguiendo un camino de aprendizaje en DevOps, lo que me permite obtener una visión más completa de las nuevas tecnologías que estoy utilizando (por ejemplo, Jenkins y Rancher como interfaz gráfica para la gestión de Kubernetes)."
+  - "Junior intentando encontrar su sitio en el sector, aficionada a trastear con igual demasiadas cosas a la vez."
+  - "Mi foco de atención son las tecnologías devops, un poquito de desarrollo en Go y alguna que otra tecnología en Cloud."
+  - "Recientemente también he comenzado a atender a eventos e incluso aportar pequeños granitos de arena, en forma de artículos online."
 socialIcons:
   - name: mastodon
     url: "https://hachyderm.io/@melocopon"
