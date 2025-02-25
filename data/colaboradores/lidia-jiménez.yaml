@@ -1,6 +1,10 @@
 name: "Lidia Jiménez"
 pronouns: "Ella"
 role: "Colaboradores"
+bio:
+  - "Soy Lidia Jiménez, especialista en Recursos Humanos con tres años de experiencia en operaciones de RR.HH. He desarrollado mi carrera en entornos dinámicos y de alto ritmo, adquiriendo una sólida experiencia en procesos de incorporación y desvinculación de empleados, gestión de sistemas HRIS, elaboración de contratos y soporte en la administración de nóminas y beneficios."
+  - "Además, estoy activamente involucrada en iniciativas de Diversidad, Equidad e Inclusión (DEI), así como en la promoción de la cultura organizacional y el compromiso de los empleados dentro de la empresa."
+  - "Me apasiona optimizar procesos, fomentar relaciones sólidas y ofrecer un soporte estratégico en RR.HH. para garantizar una experiencia fluida y satisfactoria a los empleados. Disfruto trabajando en equipo, adaptándome con rapidez y encontrando soluciones efectivas a los desafíos que puedan surgir."
 socialIcons:
   - name: linkedin
     url: "https://www.linkedin.com/in/lidia-jimenez-738b1a108/"
