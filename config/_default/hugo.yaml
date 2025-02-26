@@ -58,16 +58,18 @@ params:
     Content: "Enseñamos cosas de la nube y programación"
 
   socialIcons:
-    - name: mastodon
-      url: "https://que.pasa.co/@onthenubs"
-    - name: bluesky
-      url: "https://bsky.app/profile/onthenubs.com"
-    - name: instagram
-      url: "https://www.instagram.com/onthenubs/"
     - name: twitch
       url: "https://twitch.tv/onthenubs"
     - name: youtube
       url: "https://youtube.com/@onthenubs"
+    - name: bluesky
+      url: "https://bsky.app/profile/onthenubs.com"
+    - name: mastodon
+      url: "https://que.pasa.co/@onthenubs"
+    - name: instagram
+      url: "https://www.instagram.com/onthenubs/"
+    - name: linkedin
+      url: "https://www.linkedin.com/company/onthenubs/"
     - name: github
       url: "https://github.com/onthenubs/"
 
