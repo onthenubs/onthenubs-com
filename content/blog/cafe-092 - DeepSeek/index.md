@@ -16,7 +16,7 @@ colaboradores:
 
 youtube: j8-qJt34_BU
 ---
-En el episodio de hoy, [Vicente Herrera]({{< ref "vicente herrera">}}), nos explica porqué la presentación de DeepSeek, la nueva IA china, ha hecho temblar a Occidente. También probamos DeepSeek y nos saltamos su medidas de seguridad.
+En el episodio de hoy [Vicente Herrera]({{< ref "vicente herrera">}}) nos explica por qué la presentación de DeepSeek, la nueva IA china, ha hecho temblar a Occidente. También probamos DeepSeek y nos saltamos su medidas de seguridad.
 
 ## ¿Cómo ejecutar DeepSeek en tu ordenador?
 
