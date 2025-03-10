@@ -18,7 +18,7 @@ colaboradores:
 
 youtube: IM92TcHpySE
 ---
-Hoy nos visitan [Marta]({{< ref "marta-santo-tomas" >}}), [Laura](https://www.gatdesucre.com/) y Efren de [Delta Cat Studio](https://deltacatstudio.com) para hablarnos de los retos y alegrías de crear un videojuego.
+Hoy nos visitan [Marta]({{< ref "marta-santo-tomas" >}}), [Laura]({{< ref "gatdesucre" >}}) y [Efren](({{< ref "efren-carles-ramon" >}})) de [Delta Cat Studio](https://deltacatstudio.com) para hablarnos de los retos y alegrías de crear un videojuego.
 
 {{< figure src="images/02-deltacatstudio.webp" >}}
 
