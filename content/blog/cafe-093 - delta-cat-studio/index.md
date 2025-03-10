@@ -12,16 +12,21 @@ cover:
 
 colaboradores:
   - melocopon
+  - marta santo tomas
+  - gatdesucre
+  - efren-deltacat
 
 youtube: IM92TcHpySE
 ---
-Hoy nos visitan Marta, [Laura](https://www.gatdesucre.com/) y Efren de [Delta Cat Studio](https://deltacatstudio.com) para hablarnos de los retos y alegrías de crear un videojuego.
+Hoy nos visitan [Marta]({{< ref "marta-santo-tomas" >}}), [Laura](https://www.gatdesucre.com/) y Efren de [Delta Cat Studio](https://deltacatstudio.com) para hablarnos de los retos y alegrías de crear un videojuego.
 
-Hace poco han publicado Mycopsychosys, que podéis [descargar desde su página de itch.io](https://delta-cat-studio.itch.io/mycopsychosys).
+{{< figure src="images/02-deltacatstudio.webp" >}}
+
+Juntos han desarrollado y publicado Mycopsychosys, que podéis [descargar desde su página de itch.io](https://delta-cat-studio.itch.io/mycopsychosys).
 
 {{< figure src="images/01-mycopsychosys.gif" >}}
 
-Una novela visual ambientada en la España de los años 80, donde hay unos hongos que controlan a los humanos (y hasta allí podemos leer).
+Esta propuesta nos plantea una novela visual ambientada en la España de los años 80, donde sucede un fenómeno ambiental en forma de tormenta que porta unos hongos microscópicos, que pueden tomar el control de la mente humana (y hasta allí podemos leer).
 
 {{< youtube 2tkldzSh5W0 >}}
 
@@ -39,7 +44,7 @@ Y aunque sea la misma inspiración que el juego de “The Last of Us”, en Myco
 
 Programaron el juego con “[Ren’Py](https://www.renpy.org)”, un motor de juegos para novelas visuales que utiliza Python por debajo. El propio motor genera el ejecutable que subieron a itch.io.
 
-El motor también es capaz de generar ejecutables para otras plataformas, como Linux, Android o Mac.
+¡El motor también es capaz de generar ejecutables para otras plataformas, como Linux, Android o Mac!.
 
 ## La diferencia entre una animadora 2D y una diseñadora gráfica
 
@@ -55,7 +60,7 @@ Para el estilo gráfico de Mycopsychosys se han inspirado mucho en diversos mang
 
 ## La organización del trabajo
 
-Pronto vieron que tenían ideas muy diferentes de cómo querían que fuera el juego, así que se dieron cuenta de que necesitaban que alguien tomara el rol de director. Así había alguien que podía romper empates y podía mantener la coherencia en todo el juego.
+Pronto vieron que tenían ideas muy diferentes de cómo querían que fuera el juego, así que se dieron cuenta de que necesitaban que alguien tomara el rol de director. De tal forma que había alguien para romper empates y mantener la coherencia en todo el juego.
 
 Para elegir al director, cada uno hizo una propuesta de juego, y quien presentó la idea que más gustó fue quién tomo ese rol. En este caso fue Efren.
 
@@ -75,6 +80,6 @@ El equipo está trabajando en “[Mycopsychosys: project JUPITER](https://delta-
 
 {{< youtube UveBc0Gi8Uo >}}
 
-Si queréis actualizaciones, podéis [uniros al Discord del juego](https://l.instagram.com/?u=https%3A%2F%2Fdiscord.gg%2FZzNxAFSsDc%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAabFEGT_IzxW1RhpTn3n2DECBe6YgEMonuFxCXUBMOInz0lmRB1yIcmyA20_aem_zhf4O738oF5TPAlze4x_4g&e=AT0kT4nw7PNB-GtIOfDVvA_YvO68G4_KkBoWSSzgIyt_gBBPralPa0tE_ofm3XW35FQsS2wNsNk5-dDHTnXIrbgU60L0Kfe6rKToXg).
+Si queréis actualizaciones, podéis [uniros al Discord del juego](https://discord.gg/ZzNxAFSsDc).
 
 Este nuevo juego tendrá un alcance más ambicioso, ampliando los 40 minutos del juego original a unas 6 horas de duración. Será un RPG en 2D estilo pixelado.
