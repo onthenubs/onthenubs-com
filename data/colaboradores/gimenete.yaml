@@ -1,0 +1,11 @@
+name: "Gimenete"
+alias: "Alberto Gimeno"
+pronouns: "Él"
+role: "Colaboradores"
+bio:
+  - "Ingeniero de software con experiencia en backend, frontend, plataformas móviles, diversos sistemas de bases de datos, proveedores de nube, lenguajes, frameworks y tecnologías."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/albertogimeno/"
+  - name: bluesky
+    url: "http://bsky.app/profile/gimenete.net/"

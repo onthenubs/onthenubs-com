@@ -114,7 +114,11 @@ menus:
 #      name: 🏷️ Etiquetas
 #      url: etiquetas/
 #      weight: 4
+    - identifier: devopszgz
+      name: 🦁 DevOps Zaragoza
+      url: programas/devops-zaragoza/
+      weight: 5
     - identifier: colaboradores
       name: 👤 Equipo
       url: colaboradores/
-      weight: 5
+      weight: 6
