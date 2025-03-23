@@ -22,7 +22,7 @@
   min-height: 200px;
   max-height: 300px;
   border-radius: 150px;
-  background-color: #252525;
+  background-color: var(--border);
   margin: 0px auto;
 }
 
