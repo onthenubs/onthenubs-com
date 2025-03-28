@@ -1,0 +1,11 @@
+name: "Merybere"
+alias: "María Berenguer"
+pronouns: "Ella"
+role: "Colaboradores"
+bio:
+  - "💜 Agilista. Actriz. Aprendiz."
+  - "👩🏻‍🏫 Agile Expert. Ingeniera informática."
+  - "🦹🏻‍♀️ Pensadora mental contemporánea."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/mariaberenguer/"
