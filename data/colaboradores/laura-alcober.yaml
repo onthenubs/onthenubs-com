@@ -1,0 +1,8 @@
+name: "Laura Alcober"
+pronouns: "Ella"
+role: "Colaboradores"
+bio:
+  - "Laura Alcober Prieto es pythonista convencida, entusiasta de las bases de datos y dungeon master. Como backend engineer en Alice Biometrics, su trabajo se enfoca en la creación de sistemas escalables, eficientes y que se integren sin fricciones con partners y clientes. Ha sido ponente en el WTMZ y coordina la comunidad local de Python en Zaragoza."
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/laura-alcober-prieto-7372b2126/"
