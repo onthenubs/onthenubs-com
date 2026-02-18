@@ -4,7 +4,6 @@ slug: cafe-90-cronica-bilbostack-2025
 date: "2025-01-31T08:00:00+00:00"
 
 programas: "Café OnTheNubs"
-etiquetas:
 
 cover:
   image: "images/featured.webp"
