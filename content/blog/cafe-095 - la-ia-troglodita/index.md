@@ -1,7 +1,7 @@
 ---
 title: '☕️ #95 La IA troglodita'
 slug: cafe-95-la-ia-troglodita
-date: '2026-04-16T15:00:00+00:00'
+date: '2026-04-16T08:00:00+00:00'
 
 programas: 'Café OnTheNubs'
 etiquetas:
