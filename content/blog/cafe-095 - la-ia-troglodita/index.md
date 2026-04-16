@@ -14,6 +14,7 @@ colaboradores:
   - lasdelpulpo
   - capitangolo
 
+youtube: 7XjwSNc2mdw
 ---
 
 Revisamos las noticias de la semana:
