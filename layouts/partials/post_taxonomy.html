@@ -4,13 +4,15 @@
   <li><a href="{{ .Permalink }}">📺 {{ .LinkTitle }}</a></li>
   {{- end }}
 </ul>
-&nbsp;&nbsp;&nbsp; {{- end }} {{- with ( .GetTerms "etiquetas" ) }}
+{{- end }}
+{{- with ( .GetTerms "etiquetas" ) }}
 <ul class="post-tags tags-tags">
   {{- range ( . ) }}
   <li><a href="{{ .Permalink }}"># {{ .LinkTitle | lower }}</a></li>
   {{- end }}
 </ul>
-&nbsp;&nbsp;&nbsp; {{- end }} {{- with ( .GetTerms "colaboradores" ) }}
+{{- end }}
+{{- with ( .GetTerms "colaboradores" ) }}
 <ul class="post-tags tags-colaboradores">
   {{- range ( . ) }} {{- $slug := replace .Path "/colaboradores/" "" }} {{-
   $colaborador := (index .Site.Data.colaboradores $slug) }} {{- $title :=
