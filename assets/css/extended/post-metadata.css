@@ -1,5 +1,5 @@
 .post-tags {
-  margin: 4px 0px;
+  margin: 12px 0px;
 }
 
 .post-tags.tags-colaboradores a {
@@ -11,4 +11,8 @@
   display: inline;
   vertical-align: bottom;
   margin-right: 4px;
+}
+
+.post-meta a {
+  text-decoration: none;
 }
