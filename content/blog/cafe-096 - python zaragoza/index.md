@@ -15,7 +15,7 @@ colaboradores:
   - capitangolo
   - laura-alcober
 
-# youtube:
+youtube: aPu0nj4amqY
 ---
 
 Esta semana nos acompaña Laura Alcober de Python Zaragoza.
